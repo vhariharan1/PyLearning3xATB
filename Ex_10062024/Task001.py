@@ -18,10 +18,10 @@ print(a ** 2)
 
 # What does the ^ operator do in Python, and in what context is it commonly used?
 # '^' is an XOR operator, it can be used to swap two numbers
-b = 4 # binary = 0100
-c = 5 # binary = 0101
-print(b ^ c) # binary = 0001 = 1
+b = 4  # binary = 0100
+c = 5  # binary = 0101
+print(b ^ c)  # binary = 0001 = 1
 
-d = 6 # binary = 0110
-e = 3 # binary = 0011
-print(d ^ e) # binary = 0101 = 5
+d = 6  # binary = 0110
+e = 3  # binary = 0011
+print(d ^ e)  # binary = 0101 = 5
