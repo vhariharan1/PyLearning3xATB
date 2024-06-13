@@ -15,11 +15,13 @@ print(f"My name is {fname}{lname}")
 
 num = 13
 print(f"{num}*5={num*5}")
+print("2 x {}={},{}".format(num,26,30))
 
 # b = 1
 # print("2x{}={},{}".format(*args:b,b*2,3))
 
-my_list = [1, 2, 3, 4, 5]
-my_list.pop(1)
-my_list.pop()
-print(my_list)
+my_list = [1, 2, "rely", 4, 5]
+# my_list.pop(1)
+# my_list.pop()
+# print(my_list)
+print("the index is ", my_list.index("rely"))
